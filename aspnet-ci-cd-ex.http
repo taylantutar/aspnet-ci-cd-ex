@@ -1,0 +1,6 @@
+@aspnet_ci_cd_ex_HostAddress = http://localhost:5044
+
+GET {{aspnet_ci_cd_ex_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
